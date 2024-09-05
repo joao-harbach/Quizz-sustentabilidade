@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo das seções */
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+section:nth-child(even) {
+    background: #f4f4f4;
+}
+
+/* Estilo das perguntas sobre sustentabilidade */
+.question {
+    margin-bottom: 15px;
+}
+
+.question h3 {
+    margin-bottom: 5px;
+}
+
+.question p.answer {
+    background: #e8f5e9;
+    padding: 10px;
+    border-left: 5px solid #4caf50;
+}
+
+/* Estilo do botão */
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+/* Estilo do rodapé */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
